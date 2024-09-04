@@ -1,0 +1,10 @@
+Usage: task-cli [options] [arguments]
+
+Options:
+  add                                             Add a new task. Task name is required as arguments. Status of task is "todo" when created.
+  update                                          Update task name with Task ID. Task ID and name is required as arguments.
+  delete                                          Delete task with Task ID. Task ID is required as arguments.
+  mark-in-progress                                Update task status as in-progress.Task ID is required as arguments.
+  mark-done                                       Update task status as done.Task ID is required as arguments.
+  list                                            List up task with category arguments. Avaliable arguments are todo,in-progress and done. 
+                                                  By default all task will be listed up. 
