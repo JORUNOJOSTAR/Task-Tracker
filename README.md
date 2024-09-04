@@ -36,4 +36,8 @@ For instruction or command options, run the following command.
 ```
 task-cli help
 ```
+Run the following command to remove the package.
+```
+npm uninstall -g task-cli
+```
 
