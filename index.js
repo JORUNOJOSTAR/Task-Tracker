@@ -9,7 +9,7 @@ const obj = {
     "mark-in-progress": CRUD.markProgress,
     "mark-done": CRUD.markDone,
     "list": CRUD.listUp,
-    "--help": CRUD.showHelp
+    "help": CRUD.showHelp
 };
 
 try{
