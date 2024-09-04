@@ -15,6 +15,6 @@ const obj = {
 try{
     obj[firstCMD](secondCMD,thirdCMD);
 }catch(error){
-    console.log("Invalid COMMAND. Type --help to show avaliable command");
+    console.log("Invalid COMMAND. Type help to show avaliable command");
 }
 
