@@ -1,5 +1,5 @@
 {
-  "name": "test_pj",
+  "name": "task-cli",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
@@ -12,8 +12,5 @@
   "description": "",
   "bin": {
     "task-cli": "./index.js"
-  },
-  "dependencies": {
-    "test_pj": "file:"
   }
 }
