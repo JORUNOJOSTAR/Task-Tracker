@@ -61,7 +61,7 @@ export class CRUD{
                 updataCount+=1;
                 if(!deleteflg){
                     e.description = updateStatus?e.description:newTaskName;
-                    e.updatedAt = new Date().toLocaleString().toLocaleString();
+                    e.updatedAt = new Date().toLocaleString();
                     e.status = status || e.status;
                 }else{
                     return null;
