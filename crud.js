@@ -40,7 +40,7 @@ export class CRUD{
                 updatedAt: new Date().toLocaleString()
             }
         );
-        addData(data,newId);
+        addData(data);
         console.log(`Task added successfully (ID: ${newId})`);
     }
     
